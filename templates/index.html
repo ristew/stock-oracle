@@ -1,0 +1,12 @@
+<html>
+	<head>
+		<title>stock oracle</title>
+	</head>
+	<body>
+		<h4 id="symbol">{{ symbol }}</h4>
+		<h5 id="name" >{{ name }}</h5>
+		<div>market cap: <span id="marketcap" >${{ marketcap }}</span></div>
+		<div>price: <span id="price">${{ price }}</span></div>
+		<img src="http://chart.finance.yahoo.com/z?s={{ symbol }}&t=6m&q=l&l=on&z=s&p=m50,m200"/> 
+	</body>
+</html>
